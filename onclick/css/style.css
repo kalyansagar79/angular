@@ -1,0 +1,138 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0%;
+    padding:0%;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    margin:0%;
+    padding:0%;
+}
+.header{
+    width:100%;
+    height:10%;
+    display:flex;
+    flex-direction: row;
+    background-color: gray;display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header > ul {
+    display:flex;
+    list-style-type: none;
+}
+.header > ul > li > a{
+    margin-left:5px;
+    text-decoration: none;
+    color:black;
+}
+
+.body{
+    width:100%;
+    height:80%;
+    display:flex;
+    background-color:goldenrod;
+}
+.leftSection > ul {
+    display:flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftSection > ul > li > a{
+    text-decoration: none;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:26.67%;
+    height:33.33%; 
+}
+ .leftSection{
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: red; 
+}
+.employee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*
+.leftSection > ul > li > a > .student{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.leftSection > ul > li > a > .teacher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+#middleSection{
+    width:60%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.rightSection{
+    width:20%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.footer{
+    width:100%;
+    height:10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    height: 50%;
+}
+.home a{
+    text-decoration: none;
+    color:black;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    flex: 1 20%;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    border:1px solid black;
+}
+button{
+    background-color:gray;
+    border:none;
+}
+
+.btn{
+    background-color: goldenrod;
+}
