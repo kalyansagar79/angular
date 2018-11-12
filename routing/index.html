@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>nooru</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <ul class="nav">
+                <li><a ui-Sref="home">Home</a></li>
+                <li><a ui-Sref="email">Email</a></li>
+                <li><a ui-Sref="contact">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="section">
+            <ui-view></ui-view>
+
+        </div>
+        <div class="footer">
+            <ul class="nav">
+                <li><a ui-Sref="footer1">footer1</a></li>
+                <li><a ui-Sref="footer2">footer2</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/ui-router-min.js"></script>
+    <script src="js/routing.js"></script>
+    <script src="js/controllers/contact.js"></script>
+    <script src="js/controllers/email.js"></script>
+    <script src="js/controllers/home.js"></script>
+    <script src="js/controllers/footer1.js"></script>
+    <script src="js/controllers/footer2.js"></script>
+
+</body>
+
+</html>
